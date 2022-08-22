@@ -1,0 +1,23 @@
+/* banner bottom */
+#group-banner_bottom{position:fixed;bottom:0;left: 0;z-index:1000;width:300px;border-left:1px solid #949494;border-right:1px solid #949494}.bl-title{float:left;margin-left:10px;text-transform:uppercase;width:245px;text-align:center;padding:6px 0;color:#777986;font:12px/1.5 Tahoma,Geneva,sans-serif}.balon-header{background:url(http://static.gosu.vn/home/cack/balloon/images/bg-tip.png) repeat-x;height:30px;clear:both}.balon-header>.bl-icon{background:url(http://static.gosu.vn/home/cack/balloon/images/but-control.png) no-repeat;width:20px;height:25px;display:block;float:right;cursor:pointer}.balon-header>.bl-minimum.close{background-position:-50px 8px}.balon-header>.bl-minimum.open{background-position:-20px 8px}.balon-header>.bl-close{background-position:4px 9px}.item-banner_bottom{height:180px;width: 100%;overflow: hidden;}
+.item-banner_bottom>a,.item-banner_bottom img{height:100%;width: 100%;overflow: hidden;}
+
+/* popup middle */
+#group-fix_middle{position:fixed;text-align:center;display:table;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.64);z-index:999999;top:0;left:0}
+.item-fix_middle{display: table-cell;vertical-align: middle;position:relative} 
+.image-fix_middle{
+	display: inline-block;
+    position: relative;
+    border: 4px solid #fff;
+    border-radius: 5px;
+    height: 450px;
+}
+.image-fix_middle:before{content: "x";position: absolute;background-color: #0A0A0A;top: -16px;right: -13px;border-radius: 50%;width: 25px;color: #fff;border: 2px solid rgba(251, 252, 255, 0.69);font-size: 15px;text-transform: uppercase;cursor: pointer;height: 21px;padding-top: 4px;}
+/* fix left */
+#group-fix_left{position:fixed;left:0;top:0;z-index:996;text-align: center;}
+/* fix right */
+#group-fix_right{position:fixed;right:0;top:0;z-index:997;text-align: center;}
+.item-fix_left,.item-fix_right{margin: 3px 0;}
+/* .item-fix_right{display: table-cell;vertical-align: middle;} */
+/* top left */
+#group-top_left{position:fixed;top:0;left:0;z-index:999}

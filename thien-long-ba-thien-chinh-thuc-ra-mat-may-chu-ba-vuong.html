@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<link href="/img/favicon.ico" rel="icon">
+    <title>Thiên Long Bá Thiên</title>
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1days" />
+<meta charset="utf-8">
+<meta name="description" content="Đậm Chất Kiếm Hiệp Kim Dung, phù hợp với anh em trong thời đại mới, tối ưu trải nghiệm, dễ dàng chinh phục thế giới Kiếm Hiệp chuẩn chất 2017"/>
+<meta name="keywords" content="Thiên Long Bá Thiên, ngạo kiếm vô song high, ngao kiem vo song 2, ngao kiem vo song high, ngạo kiếm 2, thien long ba thien, ngao kiem high, ngạo kiếm high, game 2d, game client 2d, game online,
+    game nhập vai, game online, game kiếm hiệp, game võ hiệp, game high, high đúng cách, game anh em,
+    kiếm hiệp anh em, game hay, game hot, game hè, game online hè, game hay nhất hè,
+     game chat, game chất, game thời đại mới, kiếm hiệp thời đại mới, võ lâm, kiếm thế, võ lâm truyền kỳ,
+     võ lâm chi mộng, phi long tại thiên, thiên tử 3d, thien tu" />
+
+
+<base  />
+<meta property="og:title" content="Thiên Long Bá Thiên" />
+<meta property="og:site_name" content="Thiên Long Bá Thiên" />
+<meta property="og:description" content="Thiên Long Bá Thiên – Là Kiếm Hiệp, Là Anh Em" />
+
+<link rel="image_src" href="img/bn.jpg" />
+<meta property="og:image" href="img/bn.jpg" />
+
+
+<meta property="og:url" content="https://thienlongbathien.com/" />
+
+
+        
+<link rel="stylesheet" type="text/css" href="/img/jquery.fancybox.css">
+
+<script type="text/javascript" src="/img/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="/img/jquery.lazyload.min.js"></script>
+
+<script src="/img/jquery.fancybox.js"></script>
+<script src="/img/gsa.js"></script>
+
+<script type="text/javascript">
+    function calltg(){
+        var target = '/tai-game.html';
+        $.gsa({position:'quick_download',type:'click',object:'',from:window.location.href,target:target});
+        setTimeout(function(){
+            window.location.href = target;
+        },200);
+    }
+</script>
+
+<script>var url = "http://nkvs2.gosu.vn/public/static/templates/frontend/first/";</script>
+<script src="/img/easeljs-0.8.1.min.js"></script>
+<script src="/img/tweenjs-0.6.1.min.js"></script>
+<script src="/img/movieclip-0.8.1.min.js"></script>
+<script src="/img/preloadjs-0.6.1.min.js"></script>
+<script src="/img/129button_canvas.js"></script>
+ 
+<style type="text/css">
+	#fancybox-loading div {
+	  display: none;
+	}
+	.fancybox-overlay._clo_home .fancybox-close{
+	    top: 32px;
+    	right: 13px;
+	}
+</style>
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$("img.lazy").lazyload({
+			effect : "fadeIn"
+		});
+
+	});
+
+	
+	// $(document).ready(function(){
+	// 	  $.fancybox.hideActivity = function() {
+	// 			loading.hide();
+	// 		};
+	// 	});
+</script>
+
+ 
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib._129button_canvas();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver(24);
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+
+    <link rel="stylesheet" href="/img/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="/img/camnang.css">
+    <script type="text/javascript" src="/img/jquery-ui.js"></script>
+ 
+
+    <link rel="stylesheet" href="/img/screen.fancybox.css"/>
+
+ 
+</head>
+ 
+<body class="detail-cn" onload="init();">
+<div class="wrap-bg ">
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <ul>
+                    <li><a href="/">Trang chủ</a></li>
+                    <li>|</li>
+                    <li><a href="https://www.facebook.com/tlbathien/" target="_blank">Fanpage</a></li>
+                </ul>
+                <p><a href="/"><img src="/img/logo2.png" alt=""></a></p>
+            </div>
+             
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="/tai-game.html">Tải game</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" >Hướng dẫn</a>
+                        <i></i>
+                        <div class="menu-child">
+                            <ul class="menu-child-ul">
+                                <li><i class="artop"></i></li>
+                                <li><a href="#">Hướng dẫn tham gia</a></li>
+                                <li><a href="#">Thao tác cơ bản</a></li>
+                                <li><a href="#">Thuộc tính nhân vật</a></li>
+                                <li><a href="#">An toàn tài khoản</a></li>
+                                <li><a href="/tai-game.html">Cài đặt ingame</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Tính năng</a>
+                        <i></i>
+                        <div class="menu-child">
+                            <ul class="menu-child-ul">
+                                <li><i class="artop"></i></li>
+                                <li><a href="#">Trưởng thành nhân vật</a></li>
+                                <li><a href="#">Hệ thống đặc sắc</a></li>
+                                <li><a href="#">Hoạt động đặc sắc</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Môn phái</a>
+                        <i></i>
+                        <div class="menu-child">
+                            <ul class="menu-child-ul">
+                                <li><i class="artop"></i></li>
+                                <li><a href="#">Thiên Vương</a></li>
+                                <li><a href="#">Võ Đang</a></li>
+                                <li><a href="#">Thiếu Lâm</a></li>
+                                <li><a href="#">Nga My</a></li>
+                                <li><a href="#">Cái Bang</a></li>
+                                <li><a href="#">Tiêu Dao</a></li>
+                                <li><a href="#">Côn Luân</a></li>
+                                <li><a href="#">Đường Môn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Phiên bản</a>
+                        <i></i>
+                        <div class="menu-child">
+                            <ul class="menu-child-ul">
+                                <li><i class="artop"></i></li>
+                                <li><a href="#">Thái Cực Xuất Thế</a></li>
+                                <li><a href="#">Quyết Chiến Hoa Sơn</a></li>                                
+                                <li><a href="#">Vang Danh Thiên Hạ</a></li>                                
+                                <li><a href="#">Độc Cô Cầu Bại</a></li>                                
+                            </ul>
+                        </div>
+                  
+                    </li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+        <div class="maj">
+            <div class="sidebar">
+
+                <!-- Tải game -->
+                <div class="group _1 width">
+                    <canvas id="canvas" width="305" height="187"></canvas>
+                  
+                                        <a action="https://id.thienlongbathien.com" target="_blank" href="https://id.thienlongbathien.com"> </a>
+                                        <a href="https://id.thienlongbathien.com" target="_blank"></a>
+                   
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="search">
+
+                    <form id="box-search" method="get" action="#" class="box-search">
+    <input type="text" class="search" name="keyword" placeholder="Nhập từ khóa tìm kiếm ">
+    <input type="submit" class="submit-search" value="">
+</form>
+                </div>
+                <div class="clearfix"></div>
+
+                <div id="accordion2">
+                    <ul>
+                        <li>
+                            <a href="/tai-game.html">Tải game</a>
+                        </li>
+
+                                                
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Tân Thủ Nhập Môn
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                                                        <!-- Menu khac -->
+                                                     
+                            
+                            
+                        </li>
+                        
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Hệ Thống Môn Phái
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                                                        <!-- Menu khac -->
+                                                        
+                            
+                            
+                        </li>
+                        
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Trưởng thành nhân vật
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                                                        <!-- Menu khac -->
+                                                        
+                            
+                            
+                        </li>
+                        
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Hệ thống đặc sắc
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                             
+                                
+                            
+                        </li>
+                        
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Hoạt động đặc sắc
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                                                        <!-- Menu khac -->
+                                                        
+                            
+                            
+                        </li>
+                        
+                        <li class="item ">
+                                                            <a class="nav" href="javascript:void(0)">
+                                    Phiên Bản
+                                </a>
+                            
+                            <!-- Tinh nang -->
+                            
+                                                               
+                                    
+                           
+
+                            
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="conDeta chitiet">
+                    <div class="bg-top-ct">
+        <div class="group _1">
+            <p>[THÔNG BÁO] CHÍNH THỨC RA MẮT MÁY CHỦ MỚI BÁ VƯƠNG VÀO LÚC 19h NGÀY 1/9/2022</p>
+             
+        </div>
+
+<div class="group _2 tai-game" style="min-height: 515px;">
+ 
+ 
+ <div class="content-detail">
+<p><strong>Khai mở Server Bá Vương - Thiên Long Bá Thiên </strong></p>
+<p>Thiên Long Bát Bộ - cái tên không hề xa lạ đối với rất nhiều game thủ trong những năm qua, những con người đã dành cả thanh xuân để luôn đồng hành cùng Thiên Long Bát Bộ nói riêng và cùng những người anh em đồng chung chí hướng nói chung. Ở đó chúng ta có bang hội, huynh đệ, bằng hữu, thậm chí là kẻ địch. Đó là những người cùng ta vào sinh ra tử, sát cánh bên nhau cùng chiến đấu, giúp đỡ ta mỗi khi gặp khó khăn.</p>
+<p><img src="/img/bia.jpg" alt=""></p>
+<p><strong>Thông tin về server mới Bá Vương</strong></p>
+<p>Khai mở: 19:00 ngày 1/9/2022</p>
+<p><strong>Các điểm nổi bật của Thiên Long Bá Thiên: </strong></p>
+<ul>
+<li>
+<p>Tỉ lệ exp : x10 - tỉ lệ drop : x1 </p>
+</li>
+<li>
+<p>Max cấp khi open là 109 </p>
+</li>
+<li>
+<p>Bảo trì định kỳ : 17h30 mỗi ngày 5 phút </p>
+</li>
+<li>
+<p>Giới hạn 3 account / PC nói không với auto PK và clone. </p>
+</li>
+<li>
+<p>Phiên bản 9 phái chuẩn FPT</p>
+</li>
+<li>
+<p>Đầy đủ các tính năng cần thiết như Võ Hồn,Long Văn,Tu Luyện,Mật Tịch.</p>
+</li>
+<li>
+<p>Là một Server luôn hướng tiêu chí Lâu dài,Tâm huyết với sự quan tâm chặt chẽ từ phía BQT. </p>
+</li>
+<li>
+<p>Có sàn giao dịch ở trang chủ + Có một đội ngũ kỹ thuật tâm huyết và đầy khát vọng muốn đem đến những gì tốt nhất cho game thủ của mình. </p>
+</li>
+<li>
+<p>Phối hợp giữa cày và shop ổn định</p>
+</li>
+<li>
+<p>Vàng cố định săn ở map + Vàng không cố định săn ở tất cả PB</p>
+</li>
+<li>
+<p>Miễn phí ngọc 3 và săn ngọc 5</p>
+</li>
+<li>
+<p>Shop bán ngọc cấp 6 và không bán CCHTP</p>
+</li>
+<li>
+<p>Nguyên liệu 4 săn ở AT,AB,Q123..Nguyên Liệu 6 săn ở Boss,PB...</p>
+</li>
+<li>
+<p>Nguyên liệu LV,VH,NGŨ HÀNH...ĐIỀU SĂN TẠI BOSS DÃ NGOẠI ĐI PB</p>
+</li>
+<li>
+<p>Có đội ngũ support tận tình 24/7</p>
+</li>
+<li>
+<p>Có một hạ tầng ổn định không giật lag, tự động hóa mọi thứ. </p>
+</li>
+<li>
+<p>Có nhiều sự kiện ingame và offline để xây dựng cộng đồng Thiên Long Bá Thiên bền vững, lâu dài </p>
+</li>
+<li>
+<p><strong>CÁC TÍNH NĂNG ĐỘC QUYỀN CHỈ CÓ TẠI THIÊN LONG BÁ THIÊN</strong></p>
+</li>
+<li>
+<p>Tính năng Hệ Thống Ngũ Hành</p>
+</li>
+<li>
+<p>Tính năng PK Tranh Đoạt Chiến Kỳ Hậu Hoa Viên</p>
+</li>
+</ul>
+<p><strong><em style=" font-size: 29px; color: red; ">Chuỗi sự kiện mừng khai mở Server Bá Thiên </em></strong></p>
+
+<p><strong>1: Sự kiện Đua Top 109 Nhận Trùng Lâu.</strong></p>
+<p>Thời gian: 19:00 ngày 1/9/2022</p>
+<p>TOP 10 cao thủ báo danh sớm nhất sẽ giành được giải Thưởng</p>
+
+<p><strong>Phần Thưởng:</strong></p>
+<ul>
+<li><p>Giải nhất: 1 Trùng Lâu Giới + Trùng Lâu Ngọc + 1 PET BOSS Tư Chất điều 5k (chưa NT) + 50k vàng không khóa</p></li>
+<li><p>Giải nhì: 1 Trùng Lâu Ngọc + 1 PET BOSS Tư Chất điều 4k (chưa NT) + 30k vàng không khóa</p></li>
+<li><p>Giải ba: 1 PET BOSS Tư Chất điều 4k (chưa NT) + 30k vàng không khóa</p></li>
+<li><p>Giải khuyến khích: Từ vị trí số 4 – 10, mỗi bằng hữu nhận một PET BOSS 3k điều (chưa NT)</p></li>
+</ul>
+<p><strong>2 Sự kiện Phú Gia Bảo Thạch.</strong></p>
+<p><b>Phú Gia Bảo thạch 6</b></p>
+<p>Nội dung: 30 Nhân vật đầu tiên sở hữu và khảm full ngọc 6 tất cả 4 lỗ các trang bị của mình bao gồm cả Long Văn,Võ Hồn,Ám Khí. 
+Nhanh tay inbox fangpage để nhận ngay được 1 bộ bí tịch + yếu quyết môn phái tùy chọn bao gồm cả yếu quyết Bí Điển.</p>
+
+<p><b>Phú Gia Bảo thạch 7</b></p>
+<p>Nội dung: 3 Nhân vật đầu tiên sở hữu và khảm full ngọc 7 tất cả 4 lỗ các trang bị của mình bao gồm cả Long Văn,Võ Hồn,Ám Khí. 
+Nhanh tay inbox fangpage để nhận ngay được 1 <b style=" color: red; ">Trùng Lâu Ngọc</b></p>
+
+<p><strong>3 Sự kiện quà đầu tiên.</strong>
+<p>Thời gian diễn ra: Từ lúc open đến khi người thứ 200 nhận quà</p>
+<ul>
+<li><p>Nội Dung: 200 nhân vật đầu tiên nhanh tay click vào NPC tân thủ (Tiêu Phong) sẽ nhận được 1 viên thể lực cấp 7 (cố định) và 5 thông thiên linh đan (cố định)</p></li>
+<li><p>Đổi bạc lần đầu từ 200k Điểm Tặng nhận được 1 Viên bảo thạch thể lực cấp 7 (cố định).</p></li>
+</ul>
+
+<p><strong>4 Sự kiện Tết Trung Thu.</strong>
+<p>Thời gian diễn ra: Từ lúc open đến hết ngày 16/09/2022</p>
+<ul>
+<li><p>Nội Dung: Trong thời gian diễn ra sự kiện bằng hữu đi các phụ bản sẽ nhặt được nguyên liệu để làm bánh trung thu,nguyên liệu làm đèn lồng.</p></li>
+<li><p>+ Sau khi có đủ nguyên liệu bằng hữu về Lạc Dương gặp Chị Hằng Lạc Dương tiến hành làm bánh, bánh thưởng thức sẽ nhận được nhiều phần quà hấp dẫn và điểm hoạt động</p></li>
+<li><p>+ Khi có đủ nguyên liệu làm đèn lồng bằng hữu đến Quảng Trường Lạc Dương vào lúc từ 17h đến 23h hằng ngày để treo đèn.Khi treo sẽ nhận được quà hấp dẫn và điểm hoạt động</p></li>
+<li><p>+ Điểm hoạt động sẽ được đổi tại Chị Hằng Lạc Dương sẽ có nhiều phần quà hấp dẫn để bằng hữu tiến hành đổi và có xác suất đổi ra được <b style=" color: red; ">Trùng Lâu</b></p></li>
+</ul>
+
+<p><strong>5: Sự kiện Fanpage:</strong></p>
+<ul>
+<li><p>GIFTCODE Share Tag</p></li>
+<li><p>GIFTCODE Tham Gia Nhóm</p></li>
+<li><p>GIFTCODE Fan Cứng</p></li>
+<li><p>Hàng trăm GIFTCODE dành cho các sự kiện diễn ra trên Fanpage. Các bằng hữu chú ý theo dõi cập nhật thông tin. <a target="_blank" href="https://facebook.com/tlbathien">https://facebook.com/tlbathien</a></p></li>
+</ul>
+<p><strong>6:Khuyến mại nạp bạc</strong></p>
+<p>Thời gian : 1/09 - đến hết ngày 9/9/2022 </p>
+<p>Nội dung : Khuyến mãi 20% giá trị nạp bạc</p>
+<p>➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖</p>
+<p>✳️ Trang chủ: <a href="https://thienlongbathien.com/">http://thienlongbathien.com/</a></p>
+<p>✳️ Đăng ký: <a href="http://id.thienlongbathien.com/">http://id.thienlongbathien.com/</a></p>
+<p>✳️ Fangpage: <a href="https://fb.com/tlbathien">http://fb.com/thienlongbathien</a></p>
+<p>✳️ Groups: <a href="https://fb.com/groups/thienlongbathien">http://fb.com/groups/thienlongbathien</a></p>
+<p>✳️ Tải game: <a href="https://thienlongbathien.com/tai-game.html">http://thienlongbathien.com/Download</a></p>
+</div>
+                                 
+    </div>
+	
+	
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="bnt-top">
+       
+        <p onclick="return_top()" style="top: 654px;"></p>
+    </div>
+</div>
+<div id="footer">
+    <div class="footer-wrapper">
+   
+        <div class="copyright">
+            <ul class="footer-menu">
+                <li><a href="#" target="_blank">Điều khoản sử dụng</a></li>
+                <li class="line"></li>
+                <li><a href="#" target="_blank">Bảo mật tài khoản</a></li>
+                <li class="line"></li>
+                <li><a href="#" target="_blank">Thanh toán</a></li>
+            </ul>
+
+            <p style="clear:both; padding:0px;     margin-top: 7px;">
+                Copyright © 2022 Thiên Long Bá Thiên - ThienLongBaThien.Com. All Rights Reserved Phát hành Chuyên nghiệp tại Việt Nam
+            </p>
+
+        </div>
+         
+    </div><!-- END .footer-wrapper -->
+    <div class="clearfix"></div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        var url = window.location.href;
+
+        // alert(url);
+
+        if (jQuery('li.sub_tn3').hasClass('active')) {
+
+            jQuery('li a[href="'+url+'"]').addClass('active');
+
+            jQuery('li a[href="'+url+'"]').parent().parent().parent().parent().addClass('active');
+            jQuery('li a[href="'+url+'"]').parent().parent().parent().parent().parent().addClass('active');
+            jQuery('li a[href="'+url+'"]').parent().parent().addClass('active');
+        } else {
+            jQuery('li a[href="'+url+'"]').addClass('active');
+            jQuery('li a[href="'+url+'"]').parent().parent().addClass('active');
+        }
+
+
+
+
+        var tabBox = $("#accordion2 ul li a");
+        tabBox.click(function(){
+            $(this).next().slideToggle();
+        })
+        menu('.container .header .nav ul li');
+
+        heightMin = $('.sidebar').height();
+        $('.conDeta .group._2').css({'min-height': heightMin -181});
+    })
+    var wid = $('body').width();
+    $('.bnt-top p').css('right',wid/2-537);
+    $('.like-share').css('right',wid/2-537);
+
+    function return_top() {
+        $("html, body").animate({ scrollTop: 0 }, 1000);
+        return false;
+    }
+
+    $(window).scroll(function() {
+
+        if ($(this).scrollTop() > 400)
+        {
+            $('.bnt-top p').show();
+        }else{
+            $('.bnt-top p').hide();
+        }
+    });
+
+    function menu(_obj){
+        jQuery(_obj).hover(function(){
+            jQuery(this).children('div').stop(true,true).slideToggle(0);
+        },function(){
+            jQuery(this).children('div').stop(true,true).slideToggle(0);
+        });
+    }
+
+</script>
+
+  
+
+</body>
+
+<!-- Mirrored from nkvs2.gosu.vn/cam-nang/ky-vuong-tranh-ba.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Aug 2022 14:50:50 GMT -->
+</html>

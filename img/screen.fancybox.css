@@ -1,0 +1,14 @@
+.fancybox-close{
+    background: url(http://nkvs2.gosu.vn/public/static/templates/frontend/first/images/icon-re-close.png) no-repeat;
+    width: 11px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 8040;
+}
+.fancybox-close:hover{
+    background: url(http://nkvs2.gosu.vn/public/static/templates/frontend/first/images/icon-re-close-hover.png) no-repeat;
+}
